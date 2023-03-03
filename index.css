@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.board {
+  margin: 50px auto;
+  width: fit-content;
+  padding: 10px;
+  background-color: #c0c0c0;
+  border-top: 4px solid #fff;
+  border-left: 4px solid #fff;
+  border-bottom: 4px solid #7b7b7b;
+  border-right: 4px solid #7b7b7b;
+}
+
+.table {
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+tbody {
+  border-top: 4px solid #7b7b7b;
+  border-left: 4px solid #7b7b7b;
+  border-bottom: 4px solid #fff;
+  border-right: 4px solid #fff;
+}
+
+.header {
+  padding: 10px;
+  background-color: #c0c0c0;
+  border-top: 4px solid #7b7b7b;
+  border-left: 4px solid #7b7b7b;
+  border-bottom: 4px solid #fff;
+  border-right: 4px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  gap: 0;
+}
+
+.numbers {
+  display: flex;
+  align-items: center;
+}
+
+.btn-reset {
+  width: 50px;
+  height: 50px;
+  background: url("sprite.png");
+  background-size: 520%;
+  background-position: 1px -44px;
+  cursor: pointer;
+}
+
+.btn-reset:active {
+  background-position-x: 210px;
+}
+
+.btn-reset-cell-active {
+  background-position-x: 160px;
+}
+
+.btn-reset-win {
+  background-position-x: 109px;
+}
+
+.btn-reset-fail {
+  background-position-x: 59px;
+}
+
+.number {
+  width: 25px;
+  height: 44px;
+  background: url("sprite.png");
+  background-size: 1080%;
+}
+
+.cell {
+  width: 32px;
+  height: 32px;
+  background: url("sprite.png");
+  background-size: 860%;
+  background-position: 0px -101px;
+  cursor: pointer;
+}
+
+.num-0 {
+  background-position-x: 25px;
+}
+
+.num-1 {
+  background-position-x: 270px;
+}
+
+.num-2 {
+  background-position-x: 243px;
+}
+
+.num-3 {
+  background-position-x: 215px;
+}
+
+.num-4 {
+  background-position-x: 188px;
+}
+
+.num-5 {
+  background-position-x: 161px;
+}
+
+.num-6 {
+  background-position-x: 134px;
+}
+
+.num-7 {
+  background-position-x: 107px;
+}
+
+.num-8 {
+  background-position-x: 80px;
+}
+
+.num-9 {
+  background-position-x: 52px;
+}
+
+.cell-flagged-bomb {
+  background-position-x: 39px;
+}
+
+.cell-flagged {
+  background-position-x: -68px;
+}
+
+.cell-unknown {
+  background-position-x: -101px;
+}
+
+.cell-unknown-active {
+  background-position-x: 140px;
+}
+
+.cell-closed {
+  background-position-x: 0px;
+}
+
+.cell-0 {
+  background-position-x: 241px;
+}
+
+.cell-1 {
+  background-position: 0 32px;
+}
+
+.cell-2 {
+  background-position: 241px 32px;
+}
+
+.cell-3 {
+  background-position: 207px 32px;
+}
+
+.cell-4 {
+  background-position: 172px 32px;
+}
+
+.cell-5 {
+  background-position: 139px 32px;
+}
+
+.cell-6 {
+  background-position: 105px 32px;
+}
+
+.cell-7 {
+  background-position: 72px 32px;
+}
+
+.cell-8 {
+  background-position: 38px 32px;
+}
+
+.cell-bomb {
+  background-position-x: 107px;
+}
+
+.cell--1 {
+  background-position-x: 72px;
+}
+
